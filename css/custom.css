@@ -1,0 +1,45 @@
+.sub-link:hover {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient( to left ,#000000 35.49%, #700700 165.37%);
+}
+
+.btn-primary {
+    background: rgb(100, 17, 86);
+    color: white;
+    margin: 5px;
+    border-radius: 5px 5px;
+}
+
+.btn-primary:hover{
+    background: #000000;
+    color: rgb(143, 36, 125);
+    box-shadow: 3px 3px 4px 4px;
+    transition: 2s;
+}
+
+.btn-default{
+background: rgb(17, 8, 68);
+    color: white;
+    margin: 5px;
+    border-radius: 5px 5px;
+}
+
+.btn-default:hover {
+    background: #000000;
+    color: rgb(104, 29, 94);
+    box-shadow: 3px 3px 4px 4px;
+    transition: 2s;
+}
+
+.table-responsive{
+    background: linear-gradient( to left ,#000000, #66003f , #721c51 );
+    border-radius: 5px 5px;
+    box-shadow: 3px 3px rgba(1, 4, 173, 0.247);
+}
+
+.form-control[disabled], fieldset[disabled] .form-control{
+    border-radius: 5px 5px;
+}
